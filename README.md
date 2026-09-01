@@ -21,7 +21,7 @@ https://github.com/Hibiki-Sato-sugar/pokemon_battle/commit/5404fa913a82bcf04a130
 - if __name__ == "__main__":
     main()
     （このファイルが直接実行されたときだけ、中の処理を動かすための条件分）
-###　改善
+### 改善
 - HP_MAXやMIN_DAMAGE、MAX_DAMAGE、ESCAPE_RATEなどの数値を最初に指定しているので後でダメージ量やHPの数値を変更したいときに一箇所だけを変更するだけで良くなるようになっている
 - 同じ処理をコピペしなくて済むようにattack(enemy, player)と打つだけで攻撃の過程などのコードが通るようになっている
 - たくさんある処理を関数で分けてバトルの流れがわかりやすくしている
